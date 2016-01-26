@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sys_enter_activity">进入%1$s界面</string>
+    <string name="sys_exit_activity">离开%1$s界面</string>
+    <string name="sys_enter_fragment">进入%1$s子视图</string>
+    <string name="sys_exit_fragment">离开%1$s子视图</string>
+</resources>
