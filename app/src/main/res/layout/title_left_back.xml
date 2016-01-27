@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.yeewoe.coursefee.view.common.CfeeRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:titlebar="http://schemas.android.com/apk/res-auto"
+    style="@style/TitleLayout">
+
+    <org.yeewoe.coursefee.view.common.title.CfeeTitleIconButton
+        android:id="@+id/fl_classes"
+        titlebar:buttonSrc="@drawable/allcourse_learnedcount_icon"
+        style="@style/TitleIconButton.Left" />
+
+    <org.yeewoe.coursefee.view.common.CfeeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/span_control_control"
+        android:layout_toRightOf="@+id/fl_classes"
+        android:text="@string/classes"
+        android:textColor="@color/white_ffffff"
+        android:textSize="@dimen/text_size_14dp" />
+
+    <org.yeewoe.coursefee.view.common.title.CfeeTitleIconButton
+        android:id="@+id/fl_search"
+        titlebar:buttonSrc="@drawable/allcourse_learnedcount_icon"
+        style="@style/TitleIconButton.Right" />
+
+</org.yeewoe.coursefee.view.common.CfeeRelativeLayout>

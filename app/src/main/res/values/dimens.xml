@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- 公共ui -->
+    <dimen name="ui_title_height">51dp</dimen> // title高度
+    <dimen name="ui_title_padding_left_right">6dp</dimen> // title icon button的icon长度
+    <dimen name="ui_title_iceon_button_length">40dp</dimen> // title icon button长度
+    <dimen name="ui_title_iceon_button_inner_length">23dp</dimen> // title icon button的icon长度
+
+    <!-- 公共间距 -->
+    <dimen name="span_control_control">3dp</dimen> // 两控件间距离
+
+    <!-- 字体 -->
+    <dimen name="text_size_13dp">13dp</dimen>
+    <dimen name="text_size_14dp">14dp</dimen>
+</resources>

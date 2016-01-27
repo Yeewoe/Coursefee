@@ -5,4 +5,26 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="TitleLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ui_title_height</item>
+        <item name="android:background">@color/red_f01400</item>
+        <item name="android:paddingLeft">@dimen/ui_title_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/ui_title_padding_left_right</item>
+    </style>
+
+    <style name="TitleIconButton">
+        <item name="android:layout_width">@dimen/ui_title_iceon_button_length</item>
+        <item name="android:layout_height">@dimen/ui_title_iceon_button_length</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="TitleIconButton.Left">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="TitleIconButton.Right">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
 </resources>

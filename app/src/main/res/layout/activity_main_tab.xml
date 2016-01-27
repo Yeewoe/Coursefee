@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.yeewoe.coursefee.view.common.CfeeLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.yeewoe.coursefee.view.common.CfeeRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <!--app:tabMode="scrollable"  这个属性我在代码中设置了-->
-    <!-- tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);-->
-    <android.support.design.widget.TabLayout
-        android:id="@+id/sliding_tabs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+    <include layout="@layout/title_left_back"/>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1"
-        android:background="@android:color/white" />
-
-</org.yeewoe.coursefee.view.common.CfeeLinearLayout>
+</org.yeewoe.coursefee.view.common.CfeeRelativeLayout>
